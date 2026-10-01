@@ -15,6 +15,8 @@ test("Human Dissection is the featured record and the main share image", () => {
   assert.match(featured, /album\/human-dissection-ep/);
   assert.doesNotMatch(featured, /the-last-days/);
   assert.match(css, /\.hero-art\{background-image:[^}]+human-dissection\.jpg/);
+  assert.match(css, /\.about-atmosphere\{background-image:[^}]+the-sighting\.jpg/);
+  assert.doesNotMatch(css, /\.about-atmosphere\{background-image:[^}]+human-dissection\.jpg/);
 });
 
 test("Cover sizing overrides HTML dimensions and avoids cropping", () => {
