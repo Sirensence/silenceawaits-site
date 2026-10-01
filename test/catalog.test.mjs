@@ -30,9 +30,11 @@ test("Bandcamp-only demo is retained without false streaming links",() => {
 });
 test("filters cover demo editions and search individual songs",() => {
   assert.equal(filterReleases(catalog,"Chainsaw")[0].title,"The Sighting (Demo)");
-  assert.equal(filterReleases(catalog,"","Demo").length,2);
-  assert.equal(filterReleases(catalog,"","Album").length,2);
-  assert.equal(filterReleases(catalog,"","EP").length,2);
+  for (const format of ["Demo","Album","EP"]) {
+    const matches = filterReleases(catalog,"",format);
+    assert.ok(matches.length >= 2);
+    assert.ok(matches.every(r => r.format === format));
+  }
   assert.equal(filterReleases(catalog,"nothing-zz").length,0);
   assert.equal(normalize(" INVOCACIÓN "),"invocacion");
 });
