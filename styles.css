@@ -14,7 +14,7 @@
 /* Keep original artwork square and fully visible at every screen size. */
 img{height:auto}
 .hero-art{background-image:linear-gradient(90deg,#080808 0%,#080808d4 29%,#08080812 67%,#0808085c 100%),linear-gradient(0deg,#080808 0%,transparent 30%,#08080833 100%),url("./assets/covers/human-dissection.jpg")}
-.about-atmosphere{background-image:linear-gradient(90deg,#0d0c0cbb,#100d0af7 70%),url("./assets/covers/human-dissection.jpg")}
+.about-atmosphere{background-image:linear-gradient(90deg,#0d0c0cbb,#100d0af7 70%),url("./assets/covers/the-sighting.jpg")}
 .featured-grid{grid-template-columns:minmax(0,340px) minmax(0,1fr);gap:clamp(32px,6vw,90px);max-width:1000px;margin-inline:auto}
 .featured-art{width:100%;max-width:340px;margin-inline:auto}
 .featured-art img{width:100%;height:auto;aspect-ratio:1 / 1;object-fit:contain}
