@@ -1,0 +1,181 @@
+[
+  {
+    "source_id": "apple:6793129691",
+    "apple_collection_id": "6793129691",
+    "title": "The Last Days",
+    "format": "EP",
+    "release_date": "2026-07-21",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/the-last-days",
+    "spotify_url": "https://open.spotify.com/intl-es/album/0CSLbiz5DUvaNwxuPl1L1a",
+    "cover_local": "assets/covers/the-last-days.jpg",
+    "description": "An intimate descent through isolation, manipulation and dissociation, where depressive black metal meets dark ambient.",
+    "edition_note": "Track list below follows the streaming edition. The Bandcamp edition has three tracks.",
+    "bandcamp_tracks": [
+      {
+        "title": "Suicide Letter",
+        "duration_ms": 162000
+      },
+      {
+        "title": "Dark Anna",
+        "duration_ms": 168000
+      },
+      {
+        "title": "Dissociation",
+        "duration_ms": 226000
+      }
+    ],
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "bandcamp:2492687612",
+    "title": "The Sighting (Demo)",
+    "format": "Demo",
+    "release_date": "2025-02-20",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/the-sighting-demo",
+    "cover_local": "assets/covers/the-sighting-demo.jpg",
+    "description": "Early sketches from the first record, including the discarded piece “Chainsaw.” Available on Bandcamp.",
+    "total_tracks": 13,
+    "bandcamp_only": true,
+    "tracks": [
+      {
+        "title": "The Sighting (demo)",
+        "track_number": 1,
+        "duration_ms": 48000
+      },
+      {
+        "title": "Chaos (demo)",
+        "track_number": 2,
+        "duration_ms": 193000
+      },
+      {
+        "title": "Cold Blood (demo)",
+        "track_number": 3,
+        "duration_ms": 99000
+      },
+      {
+        "title": "Urubus (demo)",
+        "track_number": 4,
+        "duration_ms": 156000
+      },
+      {
+        "title": "One Last Dance (demo)",
+        "track_number": 5,
+        "duration_ms": 130000
+      },
+      {
+        "title": "Desperation (demo)",
+        "track_number": 6,
+        "duration_ms": 64000
+      },
+      {
+        "title": "Reminiscent (demo)",
+        "track_number": 7,
+        "duration_ms": 115000
+      },
+      {
+        "title": "Chapel Corridor (demo)",
+        "track_number": 8,
+        "duration_ms": 135000
+      },
+      {
+        "title": "Lonely Street (demo)",
+        "track_number": 9,
+        "duration_ms": 183000
+      },
+      {
+        "title": "Chainsaw (demo)",
+        "track_number": 10,
+        "duration_ms": 178000
+      },
+      {
+        "title": "Closure (demo)",
+        "track_number": 11,
+        "duration_ms": 125000
+      },
+      {
+        "title": "Frozen Trees (demo)",
+        "track_number": 12,
+        "duration_ms": 139000
+      },
+      {
+        "title": "Letter (demo)",
+        "track_number": 13,
+        "duration_ms": 80000
+      }
+    ],
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "apple:1792765837",
+    "apple_collection_id": "1792765837",
+    "title": "Human Dissection",
+    "format": "EP",
+    "release_date": "2025-01-24",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/human-dissection-ep",
+    "spotify_url": "https://open.spotify.com/intl-es/album/0fv3Z07AHp7xe4BOPKVZmA",
+    "cover_local": "assets/covers/human-dissection.jpg",
+    "description": "Three pieces of depressive black metal, driven by guitar, voice and a bleak emotional atmosphere.",
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "bandcamp:dark-shallow-end",
+    "title": "The Dark & Shallow End",
+    "format": "Single",
+    "release_date": "2024-08-12",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/the-dark-shallow-end-single",
+    "spotify_url": "https://open.spotify.com/intl-es/album/1iIX7KYoY2o2UbGt5Da18f",
+    "cover_local": "assets/covers/the-dark-shallow-end.jpg",
+    "description": "Two improvised piano pieces exploring the quieter side of darkness.",
+    "total_tracks": 2,
+    "tracks": [
+      {
+        "title": "The Dark & Shallow End",
+        "track_number": 1,
+        "duration_ms": 205000
+      },
+      {
+        "title": "Nocturne",
+        "track_number": 2,
+        "duration_ms": 203000
+      }
+    ],
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "apple:1716271434",
+    "apple_collection_id": "1716271434",
+    "title": "Death & Damnation",
+    "format": "Album",
+    "release_date": "2023-11-12",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/death-damnation",
+    "spotify_url": "https://open.spotify.com/intl-es/album/309H9k0zcXXhDEAGKNAaWt",
+    "cover_local": "assets/covers/death-damnation.jpg",
+    "description": "Dungeon synth, metal and dark ambient built for a D&D campaign: haunted places, strange characters and worlds beyond this one.",
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "apple:1712840537",
+    "apple_collection_id": "1712840537",
+    "title": "Feral Nightmares (Demo)",
+    "format": "Demo",
+    "release_date": "2023-10-20",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/feral-nightmares-demos",
+    "spotify_url": "https://open.spotify.com/intl-es/album/5YetxHXOGRwB1PM6sy7PIl",
+    "cover_local": "assets/covers/feral-nightmares.jpg",
+    "description": "Raw recordings from 2022–2023, bringing together black metal and DSBM influences with songs in English and Spanish.",
+    "artist": "Silence Awaits"
+  },
+  {
+    "source_id": "apple:1705797768",
+    "apple_collection_id": "1705797768",
+    "title": "The Sighting",
+    "format": "Album",
+    "release_date": "2023-09-03",
+    "bandcamp_url": "https://crystalsoul.bandcamp.com/album/the-sighting",
+    "spotify_url": "https://open.spotify.com/intl-es/album/3dmYLbl9VUSAbc3OQUpcdD",
+    "cover_local": "assets/covers/the-sighting.jpg",
+    "description": "Written in 2018, the first record inhabits the space between dark ambient, neoclassical atmosphere and paranormal dread.",
+    "artist": "Silence Awaits"
+  }
+]
+
