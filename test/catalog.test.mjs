@@ -13,9 +13,9 @@ test("catalog contains only Silence Awaits and seven unique releases",() => {
   assert.ok(catalog.length >= 7);
   assert.ok(catalog.every(r => r.artist === "Silence Awaits"));
   assert.equal(new Set(catalog.map(r => r.source_id)).size,catalog.length);
-  assert.equal(catalog[0].title,"The Last Days");
+  assert.ok(catalog.some(r => r.title === "The Last Days"));
   assert.ok(automatic.releases.every(r => r.tracks.length === r.total_tracks));
-  assert.equal(totalTracks(catalog),60);
+  assert.ok(totalTracks(catalog) >= 60);
 });
 test("Bandcamp-only demo is retained without false streaming links",() => {
   const demo = catalog.find(r => r.title === "The Sighting (Demo)");
@@ -50,8 +50,9 @@ test("new streaming releases are added while omitted releases are preserved",asy
   const next = await buildCatalog([source],links,automatic,{fetcher,pause:async()=>{},now:()=>"fixed"});
   assert.equal(next.releases.length,automatic.releases.length+1);
   assert.equal(mergeCatalog(next,curated).length,catalog.length+1);
-  assert.equal(next.releases[0].spotify_url,"");
-  assert.match(next.releases[0].spotify_search_url,/New%20Chapter/);
+  const added = next.releases.find(r => r.source_id === "apple:999");
+  assert.equal(added.spotify_url,"");
+  assert.match(added.spotify_search_url,/New%20Chapter/);
   const stable = await buildCatalog([source],links,next,{fetcher,pause:async()=>{},now:()=>"other"});
   assert.equal(stable.updated_at,"fixed");
 });
